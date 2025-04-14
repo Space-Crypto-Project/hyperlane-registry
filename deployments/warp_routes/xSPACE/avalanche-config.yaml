@@ -1,10 +1,9 @@
 # yaml-language-server: $schema=../schema.json
 tokens:
-  - chainName: avalanche
-    standard: EvmHypXERC20
-    decimals: 18
-    symbol: xSPACE
-    name: Space Token
-    logoURI: https://spacetoken.tech/assets/images/SPACE.svg
-    addressOrDenom: "0x89A1c5fB109b4E823A078CE82c9B1cf50704B768"
+  - addressOrDenom: "0x89A1c5fB109b4E823A078CE82c9B1cf50704B768"
+    chainName: avalanche
     collateralAddressOrDenom: "0x841aef70237a88027ccb2d15c1bbaf88a669674a"
+    decimals: 18
+    name: xSpace Token
+    standard: EvmHypXERC20
+    symbol: xSPACE
