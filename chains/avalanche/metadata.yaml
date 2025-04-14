@@ -23,7 +23,7 @@ nativeToken:
   symbol: AVAX
 protocol: ethereum
 rpcUrls:
-  - http: https://rpc.ankr.com/avalanche
+  - http: https://avalanche.drpc.org
   - http: https://api.avax.network/ext/bc/C/rpc
     pagination:
       maxBlockRange: 100000
