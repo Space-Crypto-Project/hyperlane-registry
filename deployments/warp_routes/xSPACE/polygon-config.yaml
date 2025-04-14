@@ -2,7 +2,6 @@
 tokens:
   - chainName: polygon
     standard: EvmHypXERC20
-    decimals: 18
     symbol: xSPACE
     name: Space Token
     logoURI: https://spacetoken.tech/assets/images/SPACE.svg
