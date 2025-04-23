@@ -1,0 +1,118 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - chainName: fantom
+    standard: EvmHypXERC20Lockbox
+    decimals: 18
+    symbol: SPACE
+    name: Space Token
+    logoURI: https://spacetoken.tech/assets/images/SPACE.svg
+    addressOrDenom: "0x99b54194066e8b07Eb5e20dF044c8E184b49382D"
+    collateralAddressOrDenom: "0xB40C16350Ca63E124AF0db26C16BEcBCC6107e06"
+    connections:
+      - token: ethereum|sonic|0x72659380a4e247fd14a0694f4144D099831e499e
+  - chainName: bsc
+    standard: EvmHypXERC20Lockbox
+    decimals: 18
+    symbol: SPACE
+    name: Space Token
+    logoURI: https://spacetoken.tech/assets/images/SPACE.svg
+    addressOrDenom: "0xc14BaBd49b35C4BfFf11F669A28e0Ba56ebf9024"
+    collateralAddressOrDenom: "0xb3A7b5c4e5Dbc69d5898F4189989AC609D04a03C"
+    connections:
+      - token: ethereum|sonic|0x72659380a4e247fd14a0694f4144D099831e499e
+      - token: ethereum|arbitrum|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|gnosis|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|optimism|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|polygon|0x53EEf09D9e5Ec83917788a182837DA48b1C52a15
+      - token: ethereum|bsc|0xc14BaBd49b35C4BfFf11F669A28e0Ba56ebf9024
+      - token: ethereum|avalanche|0x6d47De35483fb575BD4478092479a995c06548C9
+  - chainName: sonic
+    standard: EvmHypXERC20
+    decimals: 18
+    symbol: xSPACE
+    name: Space Token
+    logoURI: https://spacetoken.tech/assets/images/SPACE.svg
+    addressOrDenom: "0x72659380a4e247fd14a0694f4144D099831e499e"
+    collateralAddressOrDenom: "0x841aef70237a88027ccb2d15c1bbaf88a669674a"
+    connections:
+      - token: ethereum|arbitrum|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|gnosis|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|polygon|0x53EEf09D9e5Ec83917788a182837DA48b1C52a15
+      - token: ethereum|optimism|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|bsc|0xc14BaBd49b35C4BfFf11F669A28e0Ba56ebf9024
+      - token: ethereum|avalanche|0x6d47De35483fb575BD4478092479a995c06548C9
+  - chainName: arbitrum
+    standard: EvmHypXERC20
+    decimals: 18
+    symbol: xSPACE
+    name: Space Token
+    logoURI: https://spacetoken.tech/assets/images/SPACE.svg
+    addressOrDenom: "0x5B93B4274325493eF91Ce75cc98F4E66da2548C4"
+    collateralAddressOrDenom: "0x1D1498166DDCEeE616a6d99868e1E0677300056f"
+    connections:
+      - token: ethereum|sonic|0x72659380a4e247fd14a0694f4144D099831e499e
+      - token: ethereum|gnosis|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|polygon|0x53EEf09D9e5Ec83917788a182837DA48b1C52a15
+      - token: ethereum|optimism|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|bsc|0xc14BaBd49b35C4BfFf11F669A28e0Ba56ebf9024
+      - token: ethereum|avalanche|0x6d47De35483fb575BD4478092479a995c06548C9
+  - chainName: gnosis
+    standard: EvmHypXERC20
+    decimals: 18
+    symbol: xSPACE
+    name: Space Token
+    logoURI: https://spacetoken.tech/assets/images/SPACE.svg
+    addressOrDenom: "0x5B93B4274325493eF91Ce75cc98F4E66da2548C4"
+    collateralAddressOrDenom: "0x1D1498166DDCEeE616a6d99868e1E0677300056f"
+    connections:
+      - token: ethereum|sonic|0x72659380a4e247fd14a0694f4144D099831e499e   
+      - token: ethereum|arbitrum|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|polygon|0x53EEf09D9e5Ec83917788a182837DA48b1C52a15
+      - token: ethereum|optimism|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|bsc|0xc14BaBd49b35C4BfFf11F669A28e0Ba56ebf9024
+      - token: ethereum|avalanche|0x6d47De35483fb575BD4478092479a995c06548C9
+  - chainName: optimism
+    standard: EvmHypXERC20
+    decimals: 18
+    symbol: xSPACE
+    name: Space Token
+    logoURI: https://spacetoken.tech/assets/images/SPACE.svg
+    addressOrDenom: "0x5B93B4274325493eF91Ce75cc98F4E66da2548C4"
+    collateralAddressOrDenom: "0x1D1498166DDCEeE616a6d99868e1E0677300056f"    
+    connections:
+      - token: ethereum|sonic|0x72659380a4e247fd14a0694f4144D099831e499e   
+      - token: ethereum|arbitrum|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|gnosis|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|polygon|0x53EEf09D9e5Ec83917788a182837DA48b1C52a15
+      - token: ethereum|bsc|0xc14BaBd49b35C4BfFf11F669A28e0Ba56ebf9024
+      - token: ethereum|avalanche|0x6d47De35483fb575BD4478092479a995c06548C9
+  - chainName: polygon
+    standard: EvmHypXERC20
+    decimals: 18
+    symbol: xSPACE
+    name: Space Token
+    logoURI: https://spacetoken.tech/assets/images/SPACE.svg
+    addressOrDenom: "0x53EEf09D9e5Ec83917788a182837DA48b1C52a15"
+    collateralAddressOrDenom: "0x1D1498166DDCEeE616a6d99868e1E0677300056f"        
+    connections:
+      - token: ethereum|sonic|0x72659380a4e247fd14a0694f4144D099831e499e
+      - token: ethereum|arbitrum|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|gnosis|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|optimism|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|bsc|0xc14BaBd49b35C4BfFf11F669A28e0Ba56ebf9024
+      - token: ethereum|avalanche|0x6d47De35483fb575BD4478092479a995c06548C9
+  - chainName: avalanche
+    standard: EvmHypXERC20
+    decimals: 18
+    symbol: xSPACE
+    name: Space Token
+    logoURI: https://spacetoken.tech/assets/images/SPACE.svg
+    addressOrDenom: "0x6d47De35483fb575BD4478092479a995c06548C9"
+    collateralAddressOrDenom: "0x841aef70237a88027ccb2d15c1bbaf88a669674a"        
+    connections:
+      - token: ethereum|sonic|0x72659380a4e247fd14a0694f4144D099831e499e
+      - token: ethereum|arbitrum|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|gnosis|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|optimism|0x5B93B4274325493eF91Ce75cc98F4E66da2548C4
+      - token: ethereum|bsc|0xc14BaBd49b35C4BfFf11F669A28e0Ba56ebf9024
+      - token: ethereum|polygon|0x53EEf09D9e5Ec83917788a182837DA48b1C52a15
