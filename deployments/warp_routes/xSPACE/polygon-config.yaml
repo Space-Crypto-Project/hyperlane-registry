@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - chainName: polygon
+    standard: EvmHypXERC20
+    decimals: 18
+    symbol: xSPACE
+    name: Space Token
+    logoURI: https://spacetoken.tech/assets/images/SPACE.svg
+    addressOrDenom: "0x53EEf09D9e5Ec83917788a182837DA48b1C52a15"
+    collateralAddressOrDenom: "0x1D1498166DDCEeE616a6d99868e1E0677300056f"
